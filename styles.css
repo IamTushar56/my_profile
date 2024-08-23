@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #4a90e2; /* Blue */
+    --secondary-color: #50e3c2; /* Teal */
+    --accent-color: #f5a623; /* Orange */
+    --background-color: #f0f2f5; /* Light Grey */
+    --text-color: #333; /* Dark Grey */
+    --white: #ffffff; /* White */
+    --button-bg: #f5a623; /* Orange */
+    --button-text: #ffffff; /* White */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Gradient background */
+    background-attachment: fixed; /* Background stays fixed when scrolling */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: var(--white);
+    padding: 20px 0;
+}
+
+header .container {
+    text-align: center;
+}
+
+header .branding {
+    margin-bottom: 10px;
+}
+
+header .branding h1 {
+    margin: 0;
+    color: var(--white);
+    font-size: 2.5em;
+}
+
+header .branding p {
+    margin: 5px 0 0;
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background: var(--white);
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+    color: var(--white);
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+/* About Section */
+.about {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+/* Experience Section */
+.experience {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+/* Projects Section */
+.projects {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+/* Certificates Section */
+.certificates {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+/* Research Section */
+.research {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+.research h2 {
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.research-item {
+    margin-bottom: 30px;
+}
+
+.research-item h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.research-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Skills Section */
+.skills {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+.skills h2 {
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.skills ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+/* Contact Section */
+.contact {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+/* Footer Section */
+footer {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: var(--white);
+    text-align: center;
+    padding: 15px 0;
+}
